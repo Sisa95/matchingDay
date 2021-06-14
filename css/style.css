@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #E6DADA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333333, #dd1818);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333333, #dd1818);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    width: 100%;
+}
+
+.reg_plate {
+    border: 3px solid;
+    background-color: yellow;
+    padding: 5px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    border-radius: 15%;
+    margin: 5px;
+}
+
+.reg_plateError {
+    color: #dd1818;
+    font-size: 1.4rem;
+    padding: 5px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    margin: 5px;
+}
+
+.reg_plate2 {
+    border: 3px solid;
+    background-color: yellow;
+    padding: 5px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    border-radius: 15%;
+    margin: 5px;
+}
+
+.town {
+    padding: 5px;
+    font-family: Impact;
+}
+
+.demo {
+    width: 100%;
+    max-width: 680px;
+    position: relative;
+    background-color: rgba(255, 251, 251, 0.548);
+    margin: 45px auto;
+    margin-top: 15px;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 6px;
+    text-align: left;
+    color: black;
+    opacity: 0;
+    transition: all 0.3s ease;
+
+}
+
+.col-md-2 {
+    border: 2px solid black;
+}
+
+.col-md-1 {
+    border: 2px solid black;
+    word-wrap: break-word;
+    text-align: center;
+    width: 20%;
+}
+
+.demo.active {
+    opacity: 1;
+    top: 0;
+}
+
+textarea {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+}
+
+
+th {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1% 0 1% 0;
+    font-family: 'Anton', sans-serif;
+
+}
+
+input[type="date"]::-webkit-datetime-edit,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+    color: #fff;
+    position: relative;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+    position: absolute !important;
+    padding: 1px;
+    color: #000;
+    left: 56px;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+    position: absolute !important;
+    padding: 1px;
+    color: #000;
+    left: 26px;
+}
+
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+    position: absolute !important;
+    color: #000;
+    padding: 2px;
+    left: 4px;
+}

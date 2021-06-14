@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>registration numbers</title>
+  </head>
+  <body>
+  <div class="container" id="tp">
+
+    <div class="container-fluid demo  border border-info">
+        <div class="col-md-3" id="fe">
+            <a href="./test.html">
+                <button style="text-align: center; background-color:slategrey; font-size: 1.1rem;">Unit Tests</button></a>           
+        </div>
+        <div class="col-md-9" id="fe">
+            <h1 style="text-align: center;">Matching Days</h1>  
+            <br/>             
+        </div>
+    
+
+        <div class="col-md-10" id="fe">
+            <h1 style="text-align: center; word-spacing: 5px; font-size: 1.2em">Select any 2 dates on the calender, if the dates are on the same day, 
+            the day colour will change to green if not first day will be orange and the second day will be gold </h1>            
+            
+          </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="w_day">Sunday</th>
+                    <th scope="col" class="w_day">Monday</th>
+                    <th scope="col" class="w_day">Tuesday</th>
+                    <th scope="col" class="w_day">Wednesday</th>
+                    <th scope="col" class="w_day">Thursday</th>
+                    <th scope="col" class="w_day">Friday</th>
+                    <th scope="col" class="w_day">Saturday</th>
+                </tr>
+                </thead>
+            </table>
+      
+
+        <div class="row">
+                <div class="col-md-4">
+                    <input type="date" style="float: left;" id="date1" value=""/>
+                </div>
+
+                <div class="col-md-4">
+                  <button class="day_check">show</button>
+                </div>
+
+                 <div class="col-md-4">
+                    <input type="date" style="float: right;" class="dayTwo" id="date2" value=""/>
+                </div>
+        </div>     
+</div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scrollReveal.js" defer></script>
+    <script src="js/matchingDay.js"></script>
+    <script src="js/matchingDayDOM.js"></script>
+    
+  </body>
+</html>
